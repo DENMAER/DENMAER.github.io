@@ -63,7 +63,7 @@ body{
 }
 
 .v_block{
-   width: 80%;
+   width: 90%;
    height: 80%;
    position: relative;
    border-radius: 20px;
@@ -85,8 +85,8 @@ body{
       line-height: 60px;
       text-align: right;
       position: absolute;
-      top: 2%;
-      left: 38%;
+      top: 5%;
+      left: 44%;
       @media screen and (max-width: 600px){
          top: 4%;
          left: 40%;
@@ -117,7 +117,7 @@ body{
       text-shadow: 1px 1px 5px rgba(105, 15, 80, 0.5);
       position: absolute;
       top: 85%;
-      left: 79%;
+      left: 82%;
       & p{
          text-align: center;
          font-weight: 700;
