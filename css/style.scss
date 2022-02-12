@@ -138,10 +138,10 @@ body{
       & .logo1{
          background: url('../img/logo_1.png') center center/ 100% no-repeat, rgba(0, 0, 0, 0);
          @media screen and (max-width: 600px){
-            top: 75.3%;
-            left: 65.6%;
+            top: 88%;
+            left: 60%;
          }
-         @include adaptiv-button(45px, 35px);
+         @include adaptiv-button(45px, 15px);
          @extend %absolut_center;
          top: 87%;
          left: 60%;
@@ -174,7 +174,7 @@ body{
       top: 9%;
       left: 50%;
       @media screen and (max-width: 600px){
-         top: 3%;
+         top: 2%;
          left: 50%;
       }
       color: rgb(105, 15, 79);
@@ -462,7 +462,7 @@ body{
       left: 83%;
       @media screen and (max-width: 600px){
          top: 50%;
-         left: 35%;
+         left: 20%;
       }
       &:hover{
          background: url('../img/f_1705.png') center center/65% no-repeat;
@@ -486,7 +486,7 @@ body{
       left: 86%;
       @media screen and (max-width: 600px){
          top: 50%;
-         left: 45%;
+         left: 40%;
       }
       &:hover{
          background: url('../img/white.png') center center/70% no-repeat, radial-gradient(circle at 30% 107%, #fff475 0%, #fff47f 5%, #ff4535 45%,#b1057a 60%,#1443cf 90%);
@@ -508,7 +508,7 @@ body{
       left: 89%;
       @media screen and (max-width: 600px){
          top: 50%;
-         left: 55%;
+         left: 60%;
       }
       &:hover{
          background: url('../img/g_1717.png') center center/75% no-repeat;
@@ -532,7 +532,7 @@ body{
       left: 92%;
       @media screen and (max-width: 600px){
          top: 50%;
-         left: 65%;
+         left: 80%;
       }
       &:hover{
          background: url('../img/in_1723.png') center center/60% no-repeat;
