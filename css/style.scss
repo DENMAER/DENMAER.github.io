@@ -64,7 +64,7 @@ body{
    text-shadow: 1px 1px 15px rgb(61, 60, 60);
    background: url('../img/bg_1.png') center 80%/99% no-repeat, rgb(105, 15, 79);
    @media screen and (max-width: 600px){
-      background: url('../img/bg_1.png') center 85%/99% no-repeat, rgb(105, 15, 79);
+      background: url('../img/bg_1.png') center 80%/99% no-repeat, rgb(105, 15, 79);
       height: 15%;
    }
    height: 50%;
@@ -80,6 +80,10 @@ body{
          @extend %absolut_center;
          top: 13%;
          left: 50%;
+         @media screen and (max-width: 600px){
+            top: 20%;
+            left: 50%;
+         }
          & img{
             max-width: 7%;
             min-width: 3%;
@@ -88,7 +92,7 @@ body{
       p{
          @include adaptiv-font(26px, 18px);
          @media screen and (max-width: 600px){
-            top: 27%;
+            top: 35%;
             left: 50%;
          }
          text-align: center;
@@ -101,6 +105,7 @@ body{
          @media screen and (max-width: 600px){
             top: 45%;
             left: 50%;
+            display: none;
          }
          @include adaptiv-button(250px, 150px);
          background-color: rgba(255, 255, 255, 0);
@@ -138,7 +143,7 @@ body{
       & .logo1{
          background: url('../img/logo_1.png') center center/ 100% no-repeat, rgba(0, 0, 0, 0);
          @media screen and (max-width: 600px){
-            top: 88%;
+            top: 84%;
             left: 60%;
          }
          @include adaptiv-button(45px, 15px);
