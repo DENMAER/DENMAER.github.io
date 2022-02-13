@@ -221,7 +221,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 600px) {
   .v_block .back {
-    top: 85%;
+    top: 87%;
     left: 65%;
   }
 }
