@@ -307,7 +307,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 600px) {
   .main {
-    height: 85%;
+    height: 80%;
   }
 }
 
@@ -390,7 +390,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 600px) {
   .main .img_main .img_bock1 {
-    top: 20%;
+    top: 21%;
     left: 50%;
     width: 350px;
     height: 420px;
@@ -477,7 +477,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 600px) {
   .main .img_main .img_blocks2 {
-    top: 42%;
+    top: 43%;
     left: 50%;
     width: 350px;
     height: 420px;
@@ -651,7 +651,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 600px) {
   .main .img_main .img_block4 {
-    top: 88%;
+    top: 87%;
     left: 50%;
     width: 350px;
     height: 420px;
