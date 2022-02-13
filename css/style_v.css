@@ -115,6 +115,7 @@ body::-webkit-scrollbar-thumb {
 .v_block {
   width: 90%;
   height: 80%;
+  padding: 30px;
   position: relative;
   border-radius: 20px;
   border: 3px solid white;
@@ -157,7 +158,7 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 600px) {
   .v_block h2 {
     top: 4%;
-    left: 40%;
+    left: 38%;
     line-height: 20px;
   }
 }
@@ -179,14 +180,14 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 600px) {
   .v_block p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .v_block p {
     top: 50%;
-    left: 27%;
+    left: 30%;
     line-height: 20px;
   }
 }
@@ -198,7 +199,7 @@ body::-webkit-scrollbar-thumb {
   text-shadow: 1px 1px 5px rgba(105, 15, 80, 0.5);
   position: absolute;
   top: 85%;
-  left: 82%;
+  left: 80%;
 }
 
 @media screen and (min-width: 601px) {
@@ -214,6 +215,13 @@ body::-webkit-scrollbar-thumb {
     height: 8%;
     position: absolute;
     top: 87%;
+    left: 65%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .v_block .back {
+    top: 85%;
     left: 65%;
   }
 }
