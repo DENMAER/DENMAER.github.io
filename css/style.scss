@@ -36,7 +36,7 @@ body{
    height: 1500px; 
    font-family: 'Kurale', serif;
    @media screen and (max-width: 600px){
-      height: 2500px;
+      height: 2400px;
    }
    &::-webkit-scrollbar { 
       width: 5px; 
@@ -65,7 +65,7 @@ body{
    background: url('../img/bg_1.png') center 80%/99% no-repeat, rgb(105, 15, 79);
    @media screen and (max-width: 600px){
       background: url('../img/bg_1.png') center 80%/99% no-repeat, rgb(105, 15, 79);
-      height: 15%;
+      height: 13%;
    }
    height: 50%;
    position: relative;
@@ -166,7 +166,7 @@ body{
    position: relative;
    height: 50%;
    @media screen and (max-width: 600px){
-      height: 80%;
+      height: 83%;
    }
    overflow: hidden;
    text-shadow: 1px 1px 5px rgb(105, 15, 80);
